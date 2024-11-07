@@ -1,4 +1,4 @@
-const myObject = {
+const myObject = { // iterable in for in
     js: 'javascript',
     cpp: 'C++',
     rb: "ruby",
@@ -15,7 +15,7 @@ for (const key in programming) {
     //console.log(programming[key]);
 }
 
-// const map = new Map()
+// const map = new Map()   // not iterable in for in
 // map.set('IN', "India")
 // map.set('USA', "United States of America")
 // map.set('Fr', "France")
