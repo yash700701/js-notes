@@ -16,7 +16,7 @@ for (const greet of greetings) {
 
 // Maps
 
-const map = new Map()
+const map = new Map()  // iterable in for of
 map.set('IN', "India")
 map.set('USA', "United States of America")
 map.set('Fr', "France")
@@ -29,7 +29,7 @@ for (const [key, value] of map) {
     // console.log(key, ':-', value);
 }
 
-const myObject = {
+const myObject = { //not iterable in for of
     game1: 'NFS',
     game2: 'Spiderman'
 }
